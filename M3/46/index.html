@@ -17,9 +17,33 @@
     <div id="contenedor">
       <div style="position:absolute;top:0.000000px;left:0.000000px"><nobr><img height="1099.000000" width="872.000000" src ="bgimg/fondo.jpg"/></nobr></div>
         <!--Empezar a agregar contenido-->
+        
+     <span style="position: absolute; top: 536px; left: 295px">
+			<textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p46res7"></textarea>
+	  </span>
+      <span style="position: absolute; top: 570px; left: 295px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p46res9"></textarea>
+		</span>
+      <span style="position: absolute; top: 602px; left: 295px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p46res10"></textarea>
+		</span>
+      <span style="position: absolute; top: 633px; left: 295px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p46res11"></textarea>
+		</span>
+      <span style="position: absolute; top: 664px; left: 295px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p46res12"></textarea>
+		</span>
+      <span style="position: absolute; top: 696px; left: 295px">
+	  <textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p46res13"></textarea>
+		</span>
+      <span style="position: absolute; top: 728px; left: 295px">
+			<textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p46res14"></textarea>
+		</span>
+       
+       
         <span style="position: absolute; top: 868px; left: 258px">
 			<textarea rows = "1" cols = "15" maxlength = "15" id="tup3_p46res1"></textarea>
-		</span>
+	  </span>
 	  <span style="position: absolute; top: 952px; left: 141px">
 	  <textarea rows = "1" cols = "15" maxlength = "15" id="tup3_p46res2"></textarea>
 	  </span>
@@ -35,10 +59,12 @@
 		</span>
       <span style="position: absolute; top: 563px; left: 551px">
 	  <textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p46res6"></textarea>
+	  </span>
+     
+     <span style="position: absolute; top: 604px; left: 571px">
+			<textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p46res8"></textarea>
 		</span>
-      <span style="position: absolute; top: 604px; left: 571px">
-			<textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p46res7"></textarea>
-		</span>
+      
        
         <!--Fin del contenido-->
            <!-- FORMULARIO AL FINAL DEL CONTENIDO -->
@@ -78,6 +104,13 @@
     document.getElementById('tup3_p46res5').value = localStorage.getItem('tup3_p46res5');
     document.getElementById('tup3_p46res6').value = localStorage.getItem('tup3_p46res6');
     document.getElementById('tup3_p46res7').value = localStorage.getItem('tup3_p46res7');
+	document.getElementById('tup3_p46res8').value = localStorage.getItem('tup3_p46res8');
+	document.getElementById('tup3_p46res9').value = localStorage.getItem('tup3_p46res9');
+	document.getElementById('tup3_p46res10').value = localStorage.getItem('tup3_p46res10');
+	document.getElementById('tup3_p46res11').value = localStorage.getItem('tup3_p46res11');
+	document.getElementById('tup3_p46res12').value = localStorage.getItem('tup3_p46res12');
+	document.getElementById('tup3_p46res13').value = localStorage.getItem('tup3_p46res13');
+	document.getElementById('tup3_p46res14').value = localStorage.getItem('tup3_p46res14');
     
 
     function save_data(){
@@ -95,6 +128,21 @@
         localStorage.setItem('tup3_p46res6', tup3_p46res6);
         var tup3_p46res7 = document.getElementById('tup3_p46res7').value;
         localStorage.setItem('tup3_p46res7', tup3_p46res7);
+		var tup3_p46res8 = document.getElementById('tup3_p46res8').value;
+        localStorage.setItem('tup3_p46res8', tup3_p46res8);
+		var tup3_p46res9 = document.getElementById('tup3_p46res9').value;
+        localStorage.setItem('tup3_p46res9', tup3_p46res9);
+		var tup3_p46res10 = document.getElementById('tup3_p46res10').value;
+        localStorage.setItem('tup3_p46res10', tup3_p46res10);
+		var tup3_p46res11 = document.getElementById('tup3_p46res11').value;
+        localStorage.setItem('tup3_p46res11', tup3_p46res11);
+		var tup3_p46res12 = document.getElementById('tup3_p46res12').value;
+        localStorage.setItem('tup3_p46res12', tup3_p46res12);
+		var tup3_p46res13 = document.getElementById('tup3_p46res13').value;
+        localStorage.setItem('tup3_p46res13', tup3_p46res13);
+		var tup3_p46res14 = document.getElementById('tup3_p46res14').value;
+        localStorage.setItem('tup3_p46res14', tup3_p46res14);
+
         
 
         alert("Saved correctly");

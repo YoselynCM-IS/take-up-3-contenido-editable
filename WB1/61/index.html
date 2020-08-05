@@ -56,16 +56,16 @@
 		</span>
      
      <span style="position: absolute; top: 459px; left: 628px">
-			<textarea rows = "1" cols = "20" maxlength = "20" id="tup3_p61res13"></textarea>
+			<textarea cols = "23" rows = "1" maxlength = "23" id="tup3_p61res13"></textarea>
 		</span>
      <span style="position: absolute; top: 480px; left: 628px">
-	 <textarea rows = "1" cols = "20" maxlength = "20" id="tup3_p61res14"></textarea>
+	 <textarea rows = "1" cols = "23" maxlength = "20" id="tup3_p61res14"></textarea>
 	  </span>
      <span style="position: absolute; top: 543px; left: 615px">
-	 <textarea rows = "1" cols = "20" maxlength = "20" id="tup3_p61res15"></textarea>
+	 <textarea rows = "1" cols = "23" maxlength = "20" id="tup3_p61res15"></textarea>
 	  </span>
      <span style="position: absolute; top: 564px; left: 603px">
-	 <textarea rows = "1" cols = "22" maxlength = "22" id="tup3_p61res16"></textarea>
+	 <textarea rows = "1" cols = "23" maxlength = "23" id="tup3_p61res16"></textarea>
 		</span>
      <span style="position: absolute; top: 627px; left: 606px">
 	 <textarea rows = "1" cols = "22" maxlength = "22" id="tup3_p61res17"></textarea>
@@ -167,10 +167,7 @@
     document.getElementById('tup3_p61res19').value = localStorage.getItem('tup3_p61res19');
     document.getElementById('tup3_p61res20').value = localStorage.getItem('tup3_p61res20');
     document.getElementById('tup3_p61res21').value = localStorage.getItem('tup3_p61res21');
-    // ** INICIO ACTIVACION CHECKBOK ** //
-    if(document.getElementById('tup3_p61res21').value == "1")
-        document.getElementById("tup3_p61res21").checked = true; 
-    // ** FIN ACTIVACION CHECKBOK ** //
+
 
     document.getElementById('tup3_p61res22').value = localStorage.getItem('tup3_p61res22');
     // ** INICIO ACTIVACION CHECKBOK ** //
@@ -273,13 +270,9 @@
         localStorage.setItem('tup3_p61res19', tup3_p61res19);
         var tup3_p61res20 = document.getElementById('tup3_p61res20').value;
         localStorage.setItem('tup3_p61res20', tup3_p61res20);
-        //** INICIO PARA GUARDAR CHECKBOX **//
-        var isChecked = document.getElementById('tup3_p61res21').checked;
-        if(isChecked){
-            var tup3_p61res21 = "1";
-        }    
+		 var tup3_p61res21 = document.getElementById('tup3_p61res21').value;
         localStorage.setItem('tup3_p61res21', tup3_p61res21);
-        //** FIN PARA GUARDAR CHECKBOX **//
+        
 
         //** INICIO PARA GUARDAR CHECKBOX **//
         var isChecked = document.getElementById('tup3_p61res22').checked;

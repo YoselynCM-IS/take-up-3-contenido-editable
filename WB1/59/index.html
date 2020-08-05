@@ -26,7 +26,7 @@
 	  <textarea rows = "1" cols = "13" maxlength = "13" id="tup3_p59res2"></textarea>
 	  </span>
       <span style="position: absolute; top: 236px; left: 358px">
-	  <textarea rows = "1" cols = "5" maxlength = "5" id="tup3_p59res3"></textarea>
+	  <textarea rows = "1" cols = "8" id="tup3_p59res3"></textarea>
 	  </span>
       <span style="position: absolute; top: 259px; left: 152px">
 	  <textarea rows = "1" cols = "16" maxlength = "16" id="tup3_p59res4"></textarea>
@@ -53,7 +53,7 @@
 	 <textarea rows = "1" cols = "20" maxlength = "20" id="tup3_p59res11"></textarea>
 	  </span>
       <span style="position: absolute; top: 511px; left: 188px">
-			<textarea rows = "1" cols = "22" maxlength = "22" id="tup3_p59res12"></textarea>
+			<textarea rows = "1" cols = "22" id="tup3_p59res12"></textarea>
 	  </span>
       <span style="position: absolute; top: 575px; left: 241px">
 			<textarea rows = "1" cols = "22" maxlength = "22" id="tup3_p59res13"></textarea>
@@ -73,6 +73,9 @@
 		</span>
       <span style="position: absolute; top: 491px; left: 555px">
 	  <textarea rows = "1" cols = "14" maxlength = "14" id="tup3_p59res18"></textarea>
+		</span>
+     <span style="position: absolute; top: 511px; left: 629px">
+			<textarea rows = "1" cols = "16" maxlength = "16" id="tup3_p59res31"></textarea>
 		</span>
       <span style="position: absolute; top: 554px; left: 556px">
 	  <textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p59res19"></textarea>
@@ -110,6 +113,7 @@
       <span style="position: absolute; top: 806px; left: 524px">
 			<textarea rows = "1" cols = "10" maxlength = "10" id="tup3_p59res30"></textarea>
 		</span>
+      
        
         <!--Fin del contenido-->
            <!-- FORMULARIO AL FINAL DEL CONTENIDO -->
@@ -172,7 +176,7 @@
     document.getElementById('tup3_p59res28').value = localStorage.getItem('tup3_p59res28');
     document.getElementById('tup3_p59res29').value = localStorage.getItem('tup3_p59res29');
     document.getElementById('tup3_p59res30').value = localStorage.getItem('tup3_p59res30');
-    
+    document.getElementById('tup3_p59res31').value = localStorage.getItem('tup3_p59res31');
 
     function save_data(){
         var tup3_p59res1 = document.getElementById('tup3_p59res1').value;
@@ -235,6 +239,8 @@
         localStorage.setItem('tup3_p59res29', tup3_p59res29);
         var tup3_p59res30 = document.getElementById('tup3_p59res30').value;
         localStorage.setItem('tup3_p59res30', tup3_p59res30);
+		var tup3_p59res31 = document.getElementById('tup3_p59res31').value;
+        localStorage.setItem('tup3_p59res31', tup3_p59res31);
         
 
         alert("Saved correctly");

@@ -32,6 +32,9 @@
 		<span style="position: absolute; top: 866px; left: 67px">
 			<textarea rows = "1" cols = "20" maxlength = "20" id="tup3_p42res5"></textarea>
 		</span>
+		<span style="position: absolute; top: 1009px; left: 198px">
+			<textarea rows = "1" cols = "20" maxlength = "20" id="tup3_p42res10"></textarea>
+		</span>
 		
        <span style="position: absolute; top: 747px; left: 444px">
 			<textarea rows = "1" cols = "40" maxlength = "40" id="tup3_p42res6"></textarea><br>
@@ -79,6 +82,7 @@
     document.getElementById('tup3_p42res7').value = localStorage.getItem('tup3_p42res7');
     document.getElementById('tup3_p42res8').value = localStorage.getItem('tup3_p42res8');
     document.getElementById('tup3_p42res9').value = localStorage.getItem('tup3_p42res9');
+	document.getElementById('tup3_p42res10').value = localStorage.getItem('tup3_p42res10');
     
 
     function save_data(){
@@ -100,6 +104,8 @@
         localStorage.setItem('tup3_p42res8', tup3_p42res8);
         var tup3_p42res9 = document.getElementById('tup3_p42res9').value;
         localStorage.setItem('tup3_p42res9', tup3_p42res9);
+		var tup3_p42res10 = document.getElementById('tup3_p42res10').value;
+        localStorage.setItem('tup3_p42res10', tup3_p42res10);
         
         alert("Saved correctly");
     }
